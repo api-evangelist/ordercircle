@@ -1,7 +1,14 @@
 aid: ordercircle
 name: OrderCircle
-description: OrderCircle is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: OrderCircle is a B2B wholesale order management software platform, founded in 2015 in San
+  Francisco, that gives fast-growing brands one system to automate wholesale orders, track inventory in
+  real time, generate invoices, and run a self-service B2B eCommerce portal for their buyers. It targets
+  wholesale operations in apparel, coffee, jewelry, food and beverage, hemp, vape, and CBD, and connects
+  to existing tools through pre-built integrations with Shopify, WooCommerce, QuickBooks, Xero, ShipStation,
+  Stripe, Square, PayPal PayFlow, and Authorize.Net. OrderCircle does not currently publish a public
+  developer API, developer portal, or API documentation; its programmatic surface is limited to its
+  packaged third-party integrations. This profile was seeded as a 500 Global portfolio lead and enriched
+  from the company's public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/ordercircle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- B2B
+- Wholesale
+- eCommerce
+- Order Management
+- Inventory Management
+- Invoicing
+- Payments
+image: https://cdn.prod.website-files.com/6847ff9ebc5f3be44889660e/68481ce30b520382420a997e_Logo.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://ordercircle.com
+- type: Pricing
+  url: https://ordercircle.com/pricing/
+- type: Blog
+  url: https://ordercircle.com/blog/
+- type: Support
+  url: https://ordercircle.com/contact-us/
+- type: SignUp
+  url: https://app.v2.ordercircle.com/signup/
+- type: TermsOfService
+  url: https://ordercircle.com/terms
+- type: PrivacyPolicy
+  url: https://ordercircle.com/privacy-policy
+- type: Integrations
+  url: https://ordercircle.com/integrations
+- type: LLMsTxt
+  url: llms/ordercircle-llms.txt
+- type: DomainSecurity
+  url: security/ordercircle-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
